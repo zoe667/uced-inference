@@ -1,0 +1,584 @@
+{
+  "active_policies": [
+    "mlt_policies"
+  ],
+  "L_min": 0.00710584661017041,
+  "output_naming": "canonical (CHP_*) — matches current ExperimentConfig / 01",
+  "epsilon_sweep": {
+    "0.1": {
+      "cutoff": 0.007816431271187451,
+      "parameters": [
+        {
+          "parameter": "CHP_Retrofitted_Min_Power_300-660",
+          "ex_ante_upper": 0.75,
+          "max": 0.7499631116372363,
+          "q75": 0.6585728117465985,
+          "normalized_range": 0.9997428311100363,
+          "normalized_iqr": 0.4726750754391258,
+          "median": 0.5588712203094324,
+          "iqr": 0.21270378394760658,
+          "min": 0.30007883763772003,
+          "ex_ante_lower": 0.30000000000000004,
+          "q25": 0.44586902779899196
+        },
+        {
+          "parameter": "CHP_Retrofitted_Min_Power_0-300",
+          "ex_ante_upper": 0.75,
+          "max": 0.7499917549648447,
+          "q75": 0.6449950889486438,
+          "normalized_range": 0.9991644020200314,
+          "normalized_iqr": 0.4950064726115484,
+          "median": 0.5360124039130121,
+          "iqr": 0.22275291267519676,
+          "min": 0.3003677740558306,
+          "ex_ante_lower": 0.30000000000000004,
+          "q25": 0.422242176273447
+        },
+        {
+          "parameter": "CHP_Retrofitted_Time_0-300",
+          "ex_ante_upper": 6.0,
+          "max": 5.997355201070633,
+          "q75": 5.111942133588438,
+          "normalized_range": 0.9991455544318986,
+          "normalized_iqr": 0.48363163721810976,
+          "median": 4.198463093494805,
+          "iqr": 1.934526548872439,
+          "min": 2.0007729833430385,
+          "ex_ante_lower": 2.0,
+          "q25": 3.177415584715999
+        },
+        {
+          "parameter": "CHP_NonRetrofitted_Min_Power_300-660",
+          "ex_ante_upper": 0.75,
+          "max": 0.7498314130818219,
+          "q75": 0.6484456510327329,
+          "normalized_range": 0.9983776813376244,
+          "normalized_iqr": 0.47300407597804606,
+          "median": 0.5276189398545754,
+          "iqr": 0.21285183419012071,
+          "min": 0.30056145647989096,
+          "ex_ante_lower": 0.30000000000000004,
+          "q25": 0.43559381684261217
+        },
+        {
+          "parameter": "CHP_NonRetrofitted_Min_Power_0-300",
+          "ex_ante_upper": 0.75,
+          "max": 0.7499159703518181,
+          "q75": 0.6388442582589947,
+          "normalized_range": 0.9996782686587544,
+          "normalized_iqr": 0.4946751881469944,
+          "median": 0.5298245251347786,
+          "iqr": 0.22260383466614747,
+          "min": 0.3000607494553787,
+          "ex_ante_lower": 0.30000000000000004,
+          "q25": 0.41624042359284724
+        },
+        {
+          "parameter": "MLT_Band",
+          "ex_ante_upper": 0.4,
+          "max": 0.167182316348027,
+          "q75": 0.09826333315407651,
+          "normalized_range": 0.3347663519085511,
+          "normalized_iqr": 0.09484082143286371,
+          "median": 0.08046855087048424,
+          "iqr": 0.0331942875015023,
+          "min": 0.050014093180034094,
+          "ex_ante_lower": 0.05,
+          "q25": 0.06506904565257421
+        }
+      ],
+      "epsilon": 0.1,
+      "n_members": 3420,
+      "set_fraction": 0.171
+    },
+    "0.3": {
+      "cutoff": 0.009237600593221533,
+      "parameters": [
+        {
+          "parameter": "CHP_Retrofitted_Min_Power_300-660",
+          "ex_ante_upper": 0.75,
+          "max": 0.7499631116372363,
+          "q75": 0.6462853648655291,
+          "normalized_range": 0.9998969491249433,
+          "normalized_iqr": 0.4974952577727954,
+          "median": 0.5377271429839099,
+          "iqr": 0.2238728659977579,
+          "min": 0.30000948453101184,
+          "ex_ante_lower": 0.30000000000000004,
+          "q25": 0.4224124988677712
+        },
+        {
+          "parameter": "CHP_Retrofitted_Min_Power_0-300",
+          "ex_ante_upper": 0.75,
+          "max": 0.7499917549648447,
+          "q75": 0.6370995880432764,
+          "normalized_range": 0.9998406796549286,
+          "normalized_iqr": 0.5010230409693627,
+          "median": 0.5234840709539503,
+          "iqr": 0.2254603684362132,
+          "min": 0.3000634491201269,
+          "ex_ante_lower": 0.30000000000000004,
+          "q25": 0.4116392196070632
+        },
+        {
+          "parameter": "CHP_Retrofitted_Time_0-300",
+          "ex_ante_upper": 6.0,
+          "max": 5.999959532915463,
+          "q75": 5.0110927280021205,
+          "normalized_range": 0.9999217422595217,
+          "normalized_iqr": 0.4989056401217822,
+          "median": 4.009421686840529,
+          "iqr": 1.9956225604871287,
+          "min": 2.0002725638773766,
+          "ex_ante_lower": 2.0,
+          "q25": 3.0154701675149918
+        },
+        {
+          "parameter": "CHP_NonRetrofitted_Min_Power_300-660",
+          "ex_ante_upper": 0.75,
+          "max": 0.7499190713347788,
+          "q75": 0.6486047213855313,
+          "normalized_range": 0.999463260520883,
+          "normalized_iqr": 0.48556116333050253,
+          "median": 0.5420125652994383,
+          "iqr": 0.21850252349872612,
+          "min": 0.3001606041003815,
+          "ex_ante_lower": 0.30000000000000004,
+          "q25": 0.43010219788680515
+        },
+        {
+          "parameter": "CHP_NonRetrofitted_Min_Power_0-300",
+          "ex_ante_upper": 0.75,
+          "max": 0.749973616703468,
+          "q75": 0.6442666822320017,
+          "normalized_range": 0.9999255992654964,
+          "normalized_iqr": 0.5002868054145335,
+          "median": 0.5356271338751177,
+          "iqr": 0.22512906243654007,
+          "min": 0.30000709703399464,
+          "ex_ante_lower": 0.30000000000000004,
+          "q25": 0.4191376197954616
+        },
+        {
+          "parameter": "MLT_Band",
+          "ex_ante_upper": 0.4,
+          "max": 0.3115569050014521,
+          "q75": 0.1771145985392781,
+          "normalized_range": 0.7472651766326229,
+          "normalized_iqr": 0.24223142367195552,
+          "median": 0.1346660544374937,
+          "iqr": 0.08478099828518444,
+          "min": 0.050014093180034094,
+          "ex_ante_lower": 0.05,
+          "q25": 0.09233360025409366
+        }
+      ],
+      "epsilon": 0.3,
+      "n_members": 9676,
+      "set_fraction": 0.4838
+    },
+    "0.05": {
+      "cutoff": 0.0074611389406789306,
+      "parameters": [
+        {
+          "parameter": "CHP_Retrofitted_Min_Power_300-660",
+          "ex_ante_upper": 0.75,
+          "max": 0.7499631116372363,
+          "q75": 0.6890137106955437,
+          "normalized_range": 0.9586388574868691,
+          "normalized_iqr": 0.330297721358559,
+          "median": 0.6267495926738954,
+          "iqr": 0.14863397461135153,
+          "min": 0.31857562576814524,
+          "ex_ante_lower": 0.30000000000000004,
+          "q25": 0.5403797360841922
+        },
+        {
+          "parameter": "CHP_Retrofitted_Min_Power_0-300",
+          "ex_ante_upper": 0.75,
+          "max": 0.7496589205328867,
+          "q75": 0.6681652782711334,
+          "normalized_range": 0.9984247699490137,
+          "normalized_iqr": 0.49530877777859256,
+          "median": 0.5647228587189173,
+          "iqr": 0.22288895000036663,
+          "min": 0.3003677740558306,
+          "ex_ante_lower": 0.30000000000000004,
+          "q25": 0.44527632827076674
+        },
+        {
+          "parameter": "CHP_Retrofitted_Time_0-300",
+          "ex_ante_upper": 6.0,
+          "max": 5.99662791497944,
+          "q75": 5.241765117604823,
+          "normalized_range": 0.9983069029098164,
+          "normalized_iqr": 0.4761756852058261,
+          "median": 4.3380227799818805,
+          "iqr": 1.9047027408233044,
+          "min": 2.0034003033401744,
+          "ex_ante_lower": 2.0,
+          "q25": 3.3370623767815184
+        },
+        {
+          "parameter": "CHP_NonRetrofitted_Min_Power_300-660",
+          "ex_ante_upper": 0.75,
+          "max": 0.7497583063401475,
+          "q75": 0.6619574536881083,
+          "normalized_range": 0.9787839931546223,
+          "normalized_iqr": 0.4419049377597654,
+          "median": 0.5299879533877736,
+          "iqr": 0.19885722199189443,
+          "min": 0.3093055094205675,
+          "ex_ante_lower": 0.30000000000000004,
+          "q25": 0.4631002316962139
+        },
+        {
+          "parameter": "CHP_NonRetrofitted_Min_Power_0-300",
+          "ex_ante_upper": 0.75,
+          "max": 0.7497315084194635,
+          "q75": 0.639165142627996,
+          "normalized_range": 0.9982874006197002,
+          "normalized_iqr": 0.47442038224565414,
+          "median": 0.533070002771214,
+          "iqr": 0.21348917201054435,
+          "min": 0.3005021781405984,
+          "ex_ante_lower": 0.30000000000000004,
+          "q25": 0.4256759706174516
+        },
+        {
+          "parameter": "MLT_Band",
+          "ex_ante_upper": 0.4,
+          "max": 0.11292598087424659,
+          "q75": 0.07240276435226725,
+          "normalized_range": 0.17974825055489282,
+          "normalized_iqr": 0.04723763144308537,
+          "median": 0.06264050100093213,
+          "iqr": 0.01653317100507988,
+          "min": 0.050014093180034094,
+          "ex_ante_lower": 0.05,
+          "q25": 0.05586959334718737
+        }
+      ],
+      "epsilon": 0.05,
+      "n_members": 859,
+      "set_fraction": 0.04295
+    },
+    "0.2": {
+      "cutoff": 0.008527015932204491,
+      "parameters": [
+        {
+          "parameter": "CHP_Retrofitted_Min_Power_300-660",
+          "ex_ante_upper": 0.75,
+          "max": 0.7499631116372363,
+          "q75": 0.6474039978894854,
+          "normalized_range": 0.9998969491249433,
+          "normalized_iqr": 0.4905277893827387,
+          "median": 0.5415034212029468,
+          "iqr": 0.2207375052222324,
+          "min": 0.30000948453101184,
+          "ex_ante_lower": 0.30000000000000004,
+          "q25": 0.42666649266725304
+        },
+        {
+          "parameter": "CHP_Retrofitted_Min_Power_0-300",
+          "ex_ante_upper": 0.75,
+          "max": 0.7499917549648447,
+          "q75": 0.6385345374724671,
+          "normalized_range": 0.99966104101656,
+          "normalized_iqr": 0.5007599356003855,
+          "median": 0.5263805663442017,
+          "iqr": 0.22534197102017345,
+          "min": 0.3001442865073928,
+          "ex_ante_lower": 0.30000000000000004,
+          "q25": 0.4131925664522937
+        },
+        {
+          "parameter": "CHP_Retrofitted_Time_0-300",
+          "ex_ante_upper": 6.0,
+          "max": 5.999959532915463,
+          "q75": 5.052206654049444,
+          "normalized_range": 0.9997966373931062,
+          "normalized_iqr": 0.4971332989863292,
+          "median": 4.086335786579049,
+          "iqr": 1.9885331959453167,
+          "min": 2.0007729833430385,
+          "ex_ante_lower": 2.0,
+          "q25": 3.063673458104127
+        },
+        {
+          "parameter": "CHP_NonRetrofitted_Min_Power_300-660",
+          "ex_ante_upper": 0.75,
+          "max": 0.7498625901343318,
+          "q75": 0.6477365283840442,
+          "normalized_range": 0.9993377467421118,
+          "normalized_iqr": 0.4883459075925248,
+          "median": 0.535747003632528,
+          "iqr": 0.21975565841663613,
+          "min": 0.3001606041003815,
+          "ex_ante_lower": 0.30000000000000004,
+          "q25": 0.42798086996740803
+        },
+        {
+          "parameter": "CHP_NonRetrofitted_Min_Power_0-300",
+          "ex_ante_upper": 0.75,
+          "max": 0.749973616703468,
+          "q75": 0.6426120627494476,
+          "normalized_range": 0.9999255992654964,
+          "normalized_iqr": 0.5031685236856482,
+          "median": 0.5310359206754578,
+          "iqr": 0.22642583565854169,
+          "min": 0.30000709703399464,
+          "ex_ante_lower": 0.30000000000000004,
+          "q25": 0.4161862270909059
+        },
+        {
+          "parameter": "MLT_Band",
+          "ex_ante_upper": 0.4,
+          "max": 0.24863621900770427,
+          "q75": 0.14274996801264989,
+          "normalized_range": 0.5674917880790576,
+          "normalized_iqr": 0.17696885374805063,
+          "median": 0.11161015064615334,
+          "iqr": 0.06193909881181772,
+          "min": 0.050014093180034094,
+          "ex_ante_lower": 0.05,
+          "q25": 0.08081086920083216
+        }
+      ],
+      "epsilon": 0.2,
+      "n_members": 7041,
+      "set_fraction": 0.35205
+    }
+  },
+  "search_domain": [
+    {
+      "model_feature": "Coal_Retrofitted_Min_Power_300-660",
+      "name": "CHP_Retrofitted_Min_Power_300-660",
+      "lower": 0.30000000000000004,
+      "upper": 0.75,
+      "type": "continuous"
+    },
+    {
+      "model_feature": "Coal_Retrofitted_Min_Power_0-300",
+      "name": "CHP_Retrofitted_Min_Power_0-300",
+      "lower": 0.30000000000000004,
+      "upper": 0.75,
+      "type": "continuous"
+    },
+    {
+      "model_feature": "Coal_Retrofitted_Time_0-300",
+      "name": "CHP_Retrofitted_Time_0-300",
+      "lower": 2.0,
+      "upper": 6.0,
+      "type": "continuous"
+    },
+    {
+      "model_feature": "CHP_NonRetrofitted_Min_Power_300-660",
+      "name": "CHP_NonRetrofitted_Min_Power_300-660",
+      "lower": 0.30000000000000004,
+      "upper": 0.75,
+      "type": "continuous"
+    },
+    {
+      "model_feature": "CHP_NonRetrofitted_Min_Power_0-300",
+      "name": "CHP_NonRetrofitted_Min_Power_0-300",
+      "lower": 0.30000000000000004,
+      "upper": 0.75,
+      "type": "continuous"
+    },
+    {
+      "model_feature": "MLT_Band",
+      "name": "MLT_Band",
+      "lower": 0.05,
+      "upper": 0.4,
+      "type": "continuous"
+    }
+  ],
+  "fitted_sigma_n_standardized": 0.0010000000000109596,
+  "sampler": "stratified_LHS",
+  "transformation_applied": false,
+  "fitted_sigma_f_standardized": 1.8897423673773304,
+  "primary_epsilon": 0.1,
+  "estimand_note": "The reduced GP is refitted using only the retained dimensions, so variation associated with the omitted dimensions is absorbed into the reduced response surface rather than conditioned on a single fixed reference value. It is an empirical reduced-dimensional response over the original space-filling design, NOT the loss conditional on a particular choice of inactive parameters, and NOT an exact marginalization under a uniform distribution.",
+  "boxcox_lambda": null,
+  "uncertainty_note": "predicted_loss is the median of the predictive distribution on the original loss scale (monotone back-transform of the posterior mean), not the posterior mean. The 95% band is asymmetric after back-transformation and is reported as separate lo/hi columns; it must not be written as L +/- 1.96*sigma.",
+  "revalidation_design": {
+    "n_inactive_draws": 1,
+    "note": "Inactive parameters are held at a fixed ex-ante reference, so a UCED run at these settings returns a conditional loss while the reduced GP predicts a marginal over the design distribution of those parameters. The revalidation residual therefore upper-bounds the surrogate error: it also contains the spread induced by the inactive parameters. Set REVAL_N_DRAWS > 1 to separate the two components.",
+    "n_rows": 18,
+    "inactive_reference": "midpoint",
+    "inactive_values": {
+      "CHP_Retrofitted_Time_300-660": 6.0,
+      "CHP_NonRetrofitted_Time_0-300": 8.0,
+      "CHP_NonRetrofitted_Time_300-660": 10.0,
+      "CHP_Retrofitted_Min_Power_660-1000": 0.525,
+      "CHP_NonRetrofitted_Min_Power_660-1000": 0.525,
+      "CHP_NonRetrofitted_Time_660-1000": 10.0,
+      "CHP_Retrofitted_Time_660-1000": 6.0
+    }
+  },
+  "model_file": "trained_metamodel_reduced.jld2",
+  "domain_source": "RECONSTRUCTED from parameters.csv, frozen to lhs_design_domain.json",
+  "name_alias_applied": [
+    {
+      "model_feature": "Coal_Retrofitted_Min_Power_300-660",
+      "canonical": "CHP_Retrofitted_Min_Power_300-660"
+    },
+    {
+      "model_feature": "Coal_Retrofitted_Min_Power_0-300",
+      "canonical": "CHP_Retrofitted_Min_Power_0-300"
+    },
+    {
+      "model_feature": "Coal_Retrofitted_Time_0-300",
+      "canonical": "CHP_Retrofitted_Time_0-300"
+    }
+  ],
+  "metric_type": "NRMSE",
+  "supplement": {
+    "density": {
+      "10000": {
+        "L_min": 0.0070215007572654335,
+        "set_fraction": 0.1402,
+        "theta_hat_normalized": [
+          0.9749928511234516,
+          0.34647800041548443,
+          0.1016254015990311,
+          0.9970326617774004,
+          0.26193968823278563,
+          0.0011513560541843
+        ],
+        "normalized_iqr": [
+          0.4815584263062213,
+          0.5130234273633729,
+          0.48818139949311545,
+          0.49002613010074625,
+          0.5033021250294029,
+          0.08320251694091625
+        ]
+      },
+      "50000": {
+        "L_min": 0.0070485040887891155,
+        "set_fraction": 0.14862,
+        "theta_hat_normalized": [
+          0.7636736035317965,
+          0.2256154787655233,
+          0.21507666816606186,
+          0.9640324859752003,
+          0.06306007525304981,
+          0.007933612087518216
+        ],
+        "normalized_iqr": [
+          0.4683978675420511,
+          0.5000558270754468,
+          0.4973837487408276,
+          0.48088768533677795,
+          0.4847545197457379,
+          0.08416468037339228
+        ]
+      },
+      "20000": {
+        "L_min": 0.00710584661017041,
+        "set_fraction": 0.171,
+        "theta_hat_normalized": [
+          0.8311251828133692,
+          0.04812479907149318,
+          0.023710003215761,
+          0.9230393347464391,
+          0.24102262531982077,
+          0.025290643057759493
+        ],
+        "normalized_iqr": [
+          0.4726750754391258,
+          0.4950064726115484,
+          0.48363163721810976,
+          0.47300407597804606,
+          0.4946751881469944,
+          0.09484082143286371
+        ]
+      }
+    },
+    "geometry": {
+      "spearman": [
+        [
+          1.0,
+          0.03782680644296006,
+          -0.041742100552306295,
+          0.030648335560672035,
+          0.041782772839413264,
+          0.20331982098739906
+        ],
+        [
+          0.03782680644296006,
+          1.0,
+          -0.010610488944563345,
+          -0.031237663441423,
+          0.009049615679960448,
+          0.05936723967838457
+        ],
+        [
+          -0.041742100552306295,
+          -0.010610488944563345,
+          1.0,
+          -0.08226819001631157,
+          0.01450569409994583,
+          0.10924042129427741
+        ],
+        [
+          0.030648335560672035,
+          -0.031237663441423,
+          -0.08226819001631157,
+          1.0,
+          0.047738620011887514,
+          0.08360309389750206
+        ],
+        [
+          0.041782772839413264,
+          0.009049615679960448,
+          0.01450569409994583,
+          0.047738620011887514,
+          1.0,
+          0.044224800494639574
+        ],
+        [
+          0.20331982098739906,
+          0.05936723967838457,
+          0.10924042129427741,
+          0.08360309389750206,
+          0.044224800494639574,
+          1.0
+        ]
+      ],
+      "order": [
+        "CHP_Retrofitted_Min_Power_300-660",
+        "CHP_Retrofitted_Min_Power_0-300",
+        "CHP_Retrofitted_Time_0-300",
+        "CHP_NonRetrofitted_Min_Power_300-660",
+        "CHP_NonRetrofitted_Min_Power_0-300",
+        "MLT_Band"
+      ]
+    }
+  },
+  "n_samples": 20000,
+  "theta_hat": {
+    "CHP_NonRetrofitted_Min_Power_0-300": 0.4084601813939194,
+    "CHP_Retrofitted_Min_Power_300-660": 0.6740063322660161,
+    "CHP_Retrofitted_Time_0-300": 2.094840012863044,
+    "MLT_Band": 0.05885172507021583,
+    "CHP_NonRetrofitted_Min_Power_300-660": 0.7153677006358976,
+    "CHP_Retrofitted_Min_Power_0-300": 0.321656159582172
+  },
+  "model_type": "reduced",
+  "seed": 123,
+  "integer_time": false,
+  "data_shift": 0.0,
+  "inactive_parameters": [
+    "CHP_NonRetrofitted_Min_Power_660-1000",
+    "CHP_NonRetrofitted_Time_0-300",
+    "CHP_NonRetrofitted_Time_300-660",
+    "CHP_NonRetrofitted_Time_660-1000",
+    "CHP_Retrofitted_Min_Power_660-1000",
+    "CHP_Retrofitted_Time_300-660",
+    "CHP_Retrofitted_Time_660-1000"
+  ],
+  "timestamp": "2026-09-11T14:26:08.919"
+}

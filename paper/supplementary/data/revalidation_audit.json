@@ -1,0 +1,374 @@
+[
+  {
+    "role": "interior_1",
+    "source": "results/2016/back_check_archive/backcheck_interior_1_eps10/backcheck_result.json",
+    "year": "2016",
+    "prediction": 0.01095494690949209,
+    "params": {
+      "CHP_NonRetrofitted_Time_300-660": 10.0,
+      "MLT_Band": 0.064,
+      "CHP_NonRetrofitted_Time_660-1000": 10.0,
+      "CHP_NonRetrofitted_Min_Power_0-300": 0.689,
+      "CHP_Retrofitted_Min_Power_300-660": 0.525,
+      "CHP_Retrofitted_Time_300-660": 10.0,
+      "CHP_NonRetrofitted_Time_0-300": 8.0,
+      "CHP_Retrofitted_Time_0-300": 8.0,
+      "CHP_Retrofitted_Min_Power_660-1000": 0.525,
+      "CHP_NonRetrofitted_Min_Power_300-660": 0.705,
+      "CHP_Retrofitted_Min_Power_0-300": 0.525,
+      "CHP_NonRetrofitted_Min_Power_660-1000": 0.525,
+      "CHP_Retrofitted_Time_660-1000": 10.0
+    },
+    "actual": 0.01075354299774111,
+    "components": {
+      "performance_score": 0.01075354299774111,
+      "raw_wind_error": 0.127453370149773,
+      "raw_coal_error": 0.0832284610112162,
+      "performance_score_transformed": -2.03561970598853,
+      "aggregated_score": 0.01075354299774111,
+      "raw_mlt_error": 0.0749760086796818,
+      "raw_solar_error": 0.11925364492793558
+    }
+  },
+  {
+    "role": "interior_2",
+    "source": "results/2016/back_check_archive/backcheck_interior_2_eps10/backcheck_result.json",
+    "year": "2016",
+    "prediction": 0.011147682044101586,
+    "params": {
+      "CHP_NonRetrofitted_Time_300-660": 10.0,
+      "MLT_Band": 0.074,
+      "CHP_NonRetrofitted_Time_660-1000": 10.0,
+      "CHP_NonRetrofitted_Min_Power_0-300": 0.68,
+      "CHP_Retrofitted_Min_Power_300-660": 0.525,
+      "CHP_Retrofitted_Time_300-660": 10.0,
+      "CHP_NonRetrofitted_Time_0-300": 8.0,
+      "CHP_Retrofitted_Time_0-300": 8.0,
+      "CHP_Retrofitted_Min_Power_660-1000": 0.525,
+      "CHP_NonRetrofitted_Min_Power_300-660": 0.734,
+      "CHP_Retrofitted_Min_Power_0-300": 0.525,
+      "CHP_NonRetrofitted_Min_Power_660-1000": 0.525,
+      "CHP_Retrofitted_Time_660-1000": 10.0
+    },
+    "actual": 0.010922435246112302,
+    "components": {
+      "performance_score": 0.010922435246112302,
+      "raw_wind_error": 0.1274094881531277,
+      "raw_coal_error": 0.08379985751615875,
+      "performance_score_transformed": -1.9805077186975066,
+      "aggregated_score": 0.010922435246112302,
+      "raw_mlt_error": 0.07916299166156669,
+      "raw_solar_error": 0.11902675306194585
+    }
+  },
+  {
+    "role": "interior_3",
+    "source": "results/2016/back_check_archive/backcheck_interior_3_eps10/backcheck_result.json",
+    "year": "2016",
+    "prediction": 0.011286262782002749,
+    "params": {
+      "CHP_NonRetrofitted_Time_300-660": 10.0,
+      "MLT_Band": 0.062,
+      "CHP_NonRetrofitted_Time_660-1000": 10.0,
+      "CHP_NonRetrofitted_Min_Power_0-300": 0.582,
+      "CHP_Retrofitted_Min_Power_300-660": 0.525,
+      "CHP_Retrofitted_Time_300-660": 10.0,
+      "CHP_NonRetrofitted_Time_0-300": 8.0,
+      "CHP_Retrofitted_Time_0-300": 8.0,
+      "CHP_Retrofitted_Min_Power_660-1000": 0.525,
+      "CHP_NonRetrofitted_Min_Power_300-660": 0.71,
+      "CHP_Retrofitted_Min_Power_0-300": 0.525,
+      "CHP_NonRetrofitted_Min_Power_660-1000": 0.525,
+      "CHP_Retrofitted_Time_660-1000": 10.0
+    },
+    "actual": 0.01115053098902814,
+    "components": {
+      "performance_score": 0.01115053098902814,
+      "raw_wind_error": 0.13043283353920815,
+      "raw_coal_error": 0.08439481119366066,
+      "performance_score_transformed": -1.9060767734886657,
+      "aggregated_score": 0.01115053098902814,
+      "raw_mlt_error": 0.07462916823867762,
+      "raw_solar_error": 0.12205491789614746
+    }
+  },
+  {
+    "role": "interior_4",
+    "source": "results/2016/back_check_archive/backcheck_interior_4_eps10/backcheck_result.json",
+    "year": "2016",
+    "prediction": 0.011441991455363367,
+    "params": {
+      "CHP_NonRetrofitted_Time_300-660": 10.0,
+      "MLT_Band": 0.054,
+      "CHP_NonRetrofitted_Time_660-1000": 10.0,
+      "CHP_NonRetrofitted_Min_Power_0-300": 0.531,
+      "CHP_Retrofitted_Min_Power_300-660": 0.525,
+      "CHP_Retrofitted_Time_300-660": 10.0,
+      "CHP_NonRetrofitted_Time_0-300": 8.0,
+      "CHP_Retrofitted_Time_0-300": 8.0,
+      "CHP_Retrofitted_Min_Power_660-1000": 0.525,
+      "CHP_NonRetrofitted_Min_Power_300-660": 0.633,
+      "CHP_Retrofitted_Min_Power_0-300": 0.525,
+      "CHP_NonRetrofitted_Min_Power_660-1000": 0.525,
+      "CHP_Retrofitted_Time_660-1000": 10.0
+    },
+    "actual": 0.011189042286825917,
+    "components": {
+      "performance_score": 0.011189042286825917,
+      "raw_wind_error": 0.1321353908313233,
+      "raw_coal_error": 0.08377461074808792,
+      "performance_score_transformed": -1.8935099791256278,
+      "aggregated_score": 0.011189042286825917,
+      "raw_mlt_error": 0.07154658167959013,
+      "raw_solar_error": 0.12312314518858425
+    }
+  },
+  {
+    "role": "medoid",
+    "source": "results/2016/back_check_archive/backcheck_medoid_eps10/backcheck_result.json",
+    "year": "2016",
+    "prediction": 0.011200532383989475,
+    "params": {
+      "CHP_NonRetrofitted_Time_300-660": 10.0,
+      "MLT_Band": 0.065,
+      "CHP_NonRetrofitted_Time_660-1000": 10.0,
+      "CHP_NonRetrofitted_Min_Power_0-300": 0.653,
+      "CHP_Retrofitted_Min_Power_300-660": 0.525,
+      "CHP_Retrofitted_Time_300-660": 10.0,
+      "CHP_NonRetrofitted_Time_0-300": 8.0,
+      "CHP_Retrofitted_Time_0-300": 8.0,
+      "CHP_Retrofitted_Min_Power_660-1000": 0.525,
+      "CHP_NonRetrofitted_Min_Power_300-660": 0.678,
+      "CHP_Retrofitted_Min_Power_0-300": 0.525,
+      "CHP_NonRetrofitted_Min_Power_660-1000": 0.525,
+      "CHP_Retrofitted_Time_660-1000": 10.0
+    },
+    "actual": 0.01108836531537171,
+    "components": {
+      "performance_score": 0.01108836531537171,
+      "raw_wind_error": 0.12968936457447855,
+      "raw_coal_error": 0.08397395532497162,
+      "performance_score_transformed": -1.9263623333620896,
+      "aggregated_score": 0.01108836531537171,
+      "raw_mlt_error": 0.07573707075131961,
+      "raw_solar_error": 0.12143475992830105
+    }
+  },
+  {
+    "role": "surrogate_best",
+    "source": "results/2016/back_check_archive/backcheck_surrogate_best/backcheck_result.json",
+    "year": "2016",
+    "prediction": 0.010422705287368238,
+    "params": {
+      "CHP_NonRetrofitted_Time_300-660": 10.0,
+      "MLT_Band": 0.053,
+      "CHP_NonRetrofitted_Time_660-1000": 10.0,
+      "CHP_NonRetrofitted_Min_Power_0-300": 0.722,
+      "CHP_Retrofitted_Min_Power_300-660": 0.525,
+      "CHP_Retrofitted_Time_300-660": 10.0,
+      "CHP_NonRetrofitted_Time_0-300": 8.0,
+      "CHP_Retrofitted_Time_0-300": 8.0,
+      "CHP_Retrofitted_Min_Power_660-1000": 0.525,
+      "CHP_NonRetrofitted_Min_Power_300-660": 0.748,
+      "CHP_Retrofitted_Min_Power_0-300": 0.525,
+      "CHP_NonRetrofitted_Min_Power_660-1000": 0.525,
+      "CHP_Retrofitted_Time_660-1000": 10.0
+    },
+    "actual": 0.01008745879333652,
+    "components": {
+      "performance_score": 0.01008745879333652,
+      "raw_wind_error": 0.12423021258392225,
+      "raw_coal_error": 0.08158816763099738,
+      "performance_score_transformed": -2.2529726310749276,
+      "aggregated_score": 0.01008745879333652,
+      "raw_mlt_error": 0.06806410745274527,
+      "raw_solar_error": 0.11673618819362308
+    }
+  },
+  {
+    "role": "interior_1",
+    "source": "results/2021/back_check_archive/backcheck_interior_1_eps10/backcheck_result.json",
+    "year": "2021",
+    "prediction": 0.007701727313459752,
+    "params": {
+      "CHP_NonRetrofitted_Time_300-660": 10.0,
+      "MLT_Band": 0.098,
+      "CHP_NonRetrofitted_Time_660-1000": 10.0,
+      "CHP_NonRetrofitted_Min_Power_0-300": 0.424,
+      "CHP_Retrofitted_Min_Power_300-660": 0.625,
+      "CHP_Retrofitted_Time_300-660": 6.0,
+      "CHP_NonRetrofitted_Time_0-300": 8.0,
+      "CHP_Retrofitted_Time_0-300": 3.015,
+      "CHP_Retrofitted_Min_Power_660-1000": 0.525,
+      "CHP_NonRetrofitted_Min_Power_300-660": 0.632,
+      "CHP_Retrofitted_Min_Power_0-300": 0.647,
+      "CHP_NonRetrofitted_Min_Power_660-1000": 0.525,
+      "CHP_Retrofitted_Time_660-1000": 6.0
+    },
+    "actual": 0.007371104839615279,
+    "components": {
+      "performance_score": 0.007371104839615279,
+      "raw_wind_error": 0.08289070797109785,
+      "raw_coal_error": 0.12300716586864593,
+      "performance_score_transformed": -1.2914096269170687,
+      "aggregated_score": 0.007371104839615279,
+      "raw_mlt_error": 0.07865973060035347,
+      "raw_solar_error": 0.03599213549311199
+    }
+  },
+  {
+    "role": "interior_2",
+    "source": "results/2021/back_check_archive/backcheck_interior_2_eps10/backcheck_result.json",
+    "year": "2021",
+    "prediction": 0.007335428167959882,
+    "params": {
+      "CHP_NonRetrofitted_Time_300-660": 10.0,
+      "MLT_Band": 0.064,
+      "CHP_NonRetrofitted_Time_660-1000": 10.0,
+      "CHP_NonRetrofitted_Min_Power_0-300": 0.733,
+      "CHP_Retrofitted_Min_Power_300-660": 0.712,
+      "CHP_Retrofitted_Time_300-660": 6.0,
+      "CHP_NonRetrofitted_Time_0-300": 8.0,
+      "CHP_Retrofitted_Time_0-300": 4.032,
+      "CHP_Retrofitted_Min_Power_660-1000": 0.525,
+      "CHP_NonRetrofitted_Min_Power_300-660": 0.489,
+      "CHP_Retrofitted_Min_Power_0-300": 0.515,
+      "CHP_NonRetrofitted_Min_Power_660-1000": 0.525,
+      "CHP_Retrofitted_Time_660-1000": 6.0
+    },
+    "actual": 0.007167753677423993,
+    "components": {
+      "performance_score": 0.007167753677423993,
+      "raw_wind_error": 0.08298986547409434,
+      "raw_coal_error": 0.1241120896886823,
+      "performance_score_transformed": -1.401269456923697,
+      "aggregated_score": 0.007167753677423993,
+      "raw_mlt_error": 0.07121325528238152,
+      "raw_solar_error": 0.03617400176207399
+    }
+  },
+  {
+    "role": "interior_3",
+    "source": "results/2021/back_check_archive/backcheck_interior_3_eps10/backcheck_result.json",
+    "year": "2021",
+    "prediction": 0.00776663697649666,
+    "params": {
+      "CHP_NonRetrofitted_Time_300-660": 10.0,
+      "MLT_Band": 0.088,
+      "CHP_NonRetrofitted_Time_660-1000": 10.0,
+      "CHP_NonRetrofitted_Min_Power_0-300": 0.389,
+      "CHP_Retrofitted_Min_Power_300-660": 0.454,
+      "CHP_Retrofitted_Time_300-660": 6.0,
+      "CHP_NonRetrofitted_Time_0-300": 8.0,
+      "CHP_Retrofitted_Time_0-300": 2.966,
+      "CHP_Retrofitted_Min_Power_660-1000": 0.525,
+      "CHP_NonRetrofitted_Min_Power_300-660": 0.655,
+      "CHP_Retrofitted_Min_Power_0-300": 0.712,
+      "CHP_NonRetrofitted_Min_Power_660-1000": 0.525,
+      "CHP_Retrofitted_Time_660-1000": 6.0
+    },
+    "actual": 0.007308632860905213,
+    "components": {
+      "performance_score": 0.007308632860905213,
+      "raw_wind_error": 0.08293405191151285,
+      "raw_coal_error": 0.12289581005628049,
+      "performance_score_transformed": -1.325159918222557,
+      "aggregated_score": 0.007308632860905213,
+      "raw_mlt_error": 0.07708370487037232,
+      "raw_solar_error": 0.03621045140877578
+    }
+  },
+  {
+    "role": "interior_4",
+    "source": "results/2021/back_check_archive/backcheck_interior_4_eps10/backcheck_result.json",
+    "year": "2021",
+    "prediction": 0.007683753875062835,
+    "params": {
+      "CHP_NonRetrofitted_Time_300-660": 10.0,
+      "MLT_Band": 0.117,
+      "CHP_NonRetrofitted_Time_660-1000": 10.0,
+      "CHP_NonRetrofitted_Min_Power_0-300": 0.74,
+      "CHP_Retrofitted_Min_Power_300-660": 0.579,
+      "CHP_Retrofitted_Time_300-660": 6.0,
+      "CHP_NonRetrofitted_Time_0-300": 8.0,
+      "CHP_Retrofitted_Time_0-300": 3.779,
+      "CHP_Retrofitted_Min_Power_660-1000": 0.525,
+      "CHP_NonRetrofitted_Min_Power_300-660": 0.749,
+      "CHP_Retrofitted_Min_Power_0-300": 0.722,
+      "CHP_NonRetrofitted_Min_Power_660-1000": 0.525,
+      "CHP_Retrofitted_Time_660-1000": 6.0
+    },
+    "actual": 0.007624333530400652,
+    "components": {
+      "performance_score": 0.007624333530400652,
+      "raw_wind_error": 0.08298370850012134,
+      "raw_coal_error": 0.1254833854767471,
+      "performance_score_transformed": -1.154603617928967,
+      "aggregated_score": 0.007624333530400652,
+      "raw_mlt_error": 0.08147806842141098,
+      "raw_solar_error": 0.035018317789115246
+    }
+  },
+  {
+    "role": "medoid",
+    "source": "results/2021/back_check_archive/backcheck_medoid_eps10/backcheck_result.json",
+    "year": "2021",
+    "prediction": 0.007502643383689394,
+    "params": {
+      "CHP_NonRetrofitted_Time_300-660": 10.0,
+      "MLT_Band": 0.073,
+      "CHP_NonRetrofitted_Time_660-1000": 10.0,
+      "CHP_NonRetrofitted_Min_Power_0-300": 0.53,
+      "CHP_Retrofitted_Min_Power_300-660": 0.602,
+      "CHP_Retrofitted_Time_300-660": 6.0,
+      "CHP_NonRetrofitted_Time_0-300": 8.0,
+      "CHP_Retrofitted_Time_0-300": 3.874,
+      "CHP_Retrofitted_Min_Power_660-1000": 0.525,
+      "CHP_NonRetrofitted_Min_Power_300-660": 0.567,
+      "CHP_Retrofitted_Min_Power_0-300": 0.509,
+      "CHP_NonRetrofitted_Min_Power_660-1000": 0.525,
+      "CHP_Retrofitted_Time_660-1000": 6.0
+    },
+    "actual": 0.007160744023868366,
+    "components": {
+      "performance_score": 0.007160744023868366,
+      "raw_wind_error": 0.08282496964255945,
+      "raw_coal_error": 0.12323299751832101,
+      "performance_score_transformed": -1.4050564003555823,
+      "aggregated_score": 0.007160744023868366,
+      "raw_mlt_error": 0.07271185841039285,
+      "raw_solar_error": 0.036188595832652076
+    }
+  },
+  {
+    "role": "surrogate_best",
+    "source": "results/2021/back_check_archive/backcheck_surrogate_best/backcheck_result.json",
+    "year": "2021",
+    "prediction": 0.007107037752184144,
+    "params": {
+      "CHP_NonRetrofitted_Time_300-660": 10.0,
+      "MLT_Band": 0.059,
+      "CHP_NonRetrofitted_Time_660-1000": 10.0,
+      "CHP_NonRetrofitted_Min_Power_0-300": 0.408,
+      "CHP_Retrofitted_Min_Power_300-660": 0.674,
+      "CHP_Retrofitted_Time_300-660": 6.0,
+      "CHP_NonRetrofitted_Time_0-300": 8.0,
+      "CHP_Retrofitted_Time_0-300": 2.095,
+      "CHP_Retrofitted_Min_Power_660-1000": 0.525,
+      "CHP_NonRetrofitted_Min_Power_300-660": 0.715,
+      "CHP_Retrofitted_Min_Power_0-300": 0.322,
+      "CHP_NonRetrofitted_Min_Power_660-1000": 0.525,
+      "CHP_Retrofitted_Time_660-1000": 6.0
+    },
+    "actual": 0.007065172553512866,
+    "components": {
+      "performance_score": 0.007065172553512866,
+      "raw_wind_error": 0.08291918806589098,
+      "raw_coal_error": 0.12331314507952301,
+      "performance_score_transformed": -1.4566885886037229,
+      "aggregated_score": 0.007065172553512866,
+      "raw_mlt_error": 0.06967204303287244,
+      "raw_solar_error": 0.036397433079366326
+    }
+  }
+]

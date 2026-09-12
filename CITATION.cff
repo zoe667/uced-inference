@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper and archived software release."
+title: "UCED Inference: Surrogate-Assisted Inference of Policy-Shaped Operational Parameters"
+type: software
+authors:
+  - family-names: Song
+    given-names: Ziying
+repository-code: "https://github.com/zoe667/uced-inference"
+version: 0.1.0
+license: MIT
+keywords:
+  - unit commitment
+  - economic dispatch
+  - Gaussian process
+  - inverse inference
+  - electricity policy

@@ -1,0 +1,302 @@
+{
+  "kernel_type": "Mat32Ard{Float64}",
+  "feature_lengthscales": {
+    "CHP_NonRetrofitted_Min_Power_0-300": 23.292257796947347,
+    "MLT_Band": 5.500083175215477,
+    "Coal_Retrofitted_Min_Power_0-300": 35.3191147638044,
+    "Coal_Retrofitted_Min_Power_300-660": 20.770398141586014,
+    "CHP_NonRetrofitted_Min_Power_300-660": 7.932664792314051,
+    "Coal_Retrofitted_Time_0-300": 31.97769709564905
+  },
+  "length_scales_array": [
+    20.770398141586014,
+    35.3191147638044,
+    31.97769709564905,
+    7.932664792314051,
+    23.292257796947347,
+    5.500083175215477
+  ],
+  "log_length_scales_array": [
+    3.0335288067743984,
+    3.564424312109223,
+    3.4650386940452114,
+    2.0709890185820337,
+    3.148121021960478,
+    1.7047632148905276
+  ],
+  "fitted_noise_std": 0.0010000000000109596,
+  "screening_ceiling_tol": 0.1,
+  "dimension_reduction_info": {
+    "threshold_used": "fold_stable_ceiling_screening(source=fixed_kernel_5fold_ARD_baseline_bound, tol=0.1, min_frac=0.8, log_ls_ceiling=4.0)",
+    "removed_features": [
+      "Coal_Retrofitted_Min_Power_660-1000",
+      "Coal_Retrofitted_Time_660-1000",
+      "Coal_Retrofitted_Time_300-660",
+      "CHP_NonRetrofitted_Min_Power_660-1000",
+      "CHP_NonRetrofitted_Time_660-1000",
+      "CHP_NonRetrofitted_Time_300-660",
+      "CHP_NonRetrofitted_Time_0-300"
+    ],
+    "original_dimensions": 13
+  },
+  "parameterization": "log-scale (corrected 2026)",
+  "lengthscale_ordering_diagnostic": [
+    {
+      "lengthscale": 5.500083175215477,
+      "log_lengthscale": 1.7047632148905276,
+      "order": 1,
+      "feature": "MLT_Band"
+    },
+    {
+      "lengthscale": 7.932664792314051,
+      "log_lengthscale": 2.0709890185820337,
+      "order": 2,
+      "feature": "CHP_NonRetrofitted_Min_Power_300-660"
+    },
+    {
+      "lengthscale": 20.770398141586014,
+      "log_lengthscale": 3.0335288067743984,
+      "order": 3,
+      "feature": "Coal_Retrofitted_Min_Power_300-660"
+    },
+    {
+      "lengthscale": 23.292257796947347,
+      "log_lengthscale": 3.148121021960478,
+      "order": 4,
+      "feature": "CHP_NonRetrofitted_Min_Power_0-300"
+    },
+    {
+      "lengthscale": 31.97769709564905,
+      "log_lengthscale": 3.4650386940452114,
+      "order": 5,
+      "feature": "Coal_Retrofitted_Time_0-300"
+    },
+    {
+      "lengthscale": 35.3191147638044,
+      "log_lengthscale": 3.564424312109223,
+      "order": 6,
+      "feature": "Coal_Retrofitted_Min_Power_0-300"
+    }
+  ],
+  "fitted_signal_std": 1.8897423673773304,
+  "log_ls_ceiling": 4.0,
+  "reduced_model_ard_diagnostic": {
+    "iqr_log_ls": [
+      0.21758082301853454,
+      0.5267349973025883,
+      0.1377552944105651,
+      0.12485833963109982,
+      0.09270751007702227,
+      0.040272813774164584
+    ],
+    "ceiling_votes": [
+      0,
+      3,
+      1,
+      0,
+      0,
+      0
+    ],
+    "n_folds": 5,
+    "feature_columns": [
+      "Coal_Retrofitted_Min_Power_300-660",
+      "Coal_Retrofitted_Min_Power_0-300",
+      "Coal_Retrofitted_Time_0-300",
+      "CHP_NonRetrofitted_Min_Power_300-660",
+      "CHP_NonRetrofitted_Min_Power_0-300",
+      "MLT_Band"
+    ],
+    "median_log_ls": [
+      2.978059766562279,
+      3.9999999999673355,
+      3.573564055144534,
+      2.4569756184614486,
+      3.0195972917602076,
+      1.7354617752657997
+    ]
+  },
+  "official_full_dimension_screening": {
+    "fold_log_lengthscales": [
+      [
+        3.999999999999866,
+        3.999999999999858,
+        2.5238465664840533,
+        3.999999999999875,
+        2.7343974531831887,
+        3.9999999999997358,
+        3.9999999999998868,
+        3.999999999999822,
+        2.02938328985081,
+        3.9999999999998903,
+        2.341453649896772,
+        3.999999999999864,
+        0.8356282439084617
+      ],
+      [
+        3.9999999999943854,
+        3.9999999999808296,
+        2.6713334780938167,
+        3.9999999999904556,
+        3.9999999999861067,
+        3.1272929015712094,
+        3.999999999983453,
+        3.99999999999352,
+        2.5106465159471445,
+        3.9999999999911258,
+        2.489096681693971,
+        3.9999999999931806,
+        1.0561838256007152
+      ],
+      [
+        3.9999999999999996,
+        3.9999999999999996,
+        2.4863593477377686,
+        3.9999999999999996,
+        2.735070978914399,
+        2.8636880123946153,
+        3.9999999999999996,
+        3.9999999999999996,
+        2.488597256851571,
+        3.620106887153634,
+        2.5027390371013443,
+        3.9999999999999996,
+        0.9860042737018496
+      ],
+      [
+        3.4104418738829203,
+        3.9999999999998446,
+        2.3739993795444603,
+        3.9999999999999036,
+        3.9999999999997766,
+        3.9999999999997717,
+        3.9222538811415686,
+        3.9999999999998863,
+        1.6484715101121958,
+        3.9999999999998814,
+        2.4496421341141965,
+        3.999999999999832,
+        1.0916440310316389
+      ],
+      [
+        3.999999999997283,
+        3.999999999998017,
+        2.3903335243013766,
+        3.999999999973723,
+        3.999999999994227,
+        3.020548044482869,
+        3.999999999998221,
+        3.99999999999824,
+        2.1359283642767,
+        3.9999999999973648,
+        2.5097706811290803,
+        3.9999999999982885,
+        1.163051965211846
+      ]
+    ],
+    "iqr_log_ls": [
+      5.480504938759623e-12,
+      1.8407497748285095e-12,
+      0.13351304218267668,
+      9.447997939560082e-12,
+      1.2649290210798276,
+      0.9794519555168666,
+      1.6433965299711417e-11,
+      1.6462387009141821e-12,
+      0.4592139670007609,
+      8.755662861403835e-12,
+      0.053096902987147754,
+      1.5756285165480222e-12,
+      0.10563975732978925
+    ],
+    "ceiling_votes": [
+      4,
+      5,
+      0,
+      5,
+      3,
+      2,
+      5,
+      5,
+      0,
+      4,
+      0,
+      5,
+      0
+    ],
+    "source": "fixed_kernel_5fold_ARD_baseline_bound",
+    "n_folds": 5,
+    "votes_needed": 4,
+    "log_ls_hi": 4.0,
+    "candidate_inactive_mask": [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    "feature_columns": [
+      "Coal_Retrofitted_Min_Power_660-1000",
+      "Coal_Retrofitted_Time_660-1000",
+      "Coal_Retrofitted_Min_Power_300-660",
+      "Coal_Retrofitted_Time_300-660",
+      "Coal_Retrofitted_Min_Power_0-300",
+      "Coal_Retrofitted_Time_0-300",
+      "CHP_NonRetrofitted_Min_Power_660-1000",
+      "CHP_NonRetrofitted_Time_660-1000",
+      "CHP_NonRetrofitted_Min_Power_300-660",
+      "CHP_NonRetrofitted_Time_300-660",
+      "CHP_NonRetrofitted_Min_Power_0-300",
+      "CHP_NonRetrofitted_Time_0-300",
+      "MLT_Band"
+    ],
+    "median_log_ls": [
+      3.999999999997283,
+      3.9999999999998446,
+      2.4863593477377686,
+      3.999999999999875,
+      3.9999999999861067,
+      3.1272929015712094,
+      3.999999999998221,
+      3.999999999999822,
+      2.1359283642767,
+      3.9999999999973648,
+      2.489096681693971,
+      3.999999999999832,
+      1.0561838256007152
+    ]
+  },
+  "n_features": 6,
+  "statistics": {
+    "min_lengthscale": 5.500083175215477,
+    "n_at_ceiling": 0,
+    "std_lengthscale": 12.178781475798786,
+    "max_lengthscale": 35.3191147638044,
+    "range": 29.819031588588924,
+    "median_log_lengthscale": 3.0908249143674382,
+    "mean_lengthscale": 20.798702627586056,
+    "max_log_lengthscale": 3.564424312109223,
+    "ratio_max_min": 6.421560118028706,
+    "log_spread": 1.8596610972186955,
+    "min_log_lengthscale": 1.7047632148905276
+  },
+  "metric_type": "NRMSE",
+  "model_type": "reduced",
+  "screening_min_frac": 0.8,
+  "timestamp": "2026-09-11T14:22:15.250",
+  "feature_columns": [
+    "Coal_Retrofitted_Min_Power_300-660",
+    "Coal_Retrofitted_Min_Power_0-300",
+    "Coal_Retrofitted_Time_0-300",
+    "CHP_NonRetrofitted_Min_Power_300-660",
+    "CHP_NonRetrofitted_Min_Power_0-300",
+    "MLT_Band"
+  ]
+}

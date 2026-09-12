@@ -1,0 +1,42 @@
+{
+  "screening_rule": "fixed-kernel 5-fold ARD; candidate inactive at upper bound in >=4/5 folds",
+  "active_parameters": [
+    "Coal_Retrofitted_Min_Power_300-660",
+    "Coal_Retrofitted_Min_Power_0-300",
+    "Coal_Retrofitted_Time_0-300",
+    "CHP_NonRetrofitted_Min_Power_300-660",
+    "CHP_NonRetrofitted_Min_Power_0-300",
+    "MLT_Band"
+  ],
+  "model_file": "trained_metamodel_final.jld2",
+  "kernel_family": "Mat32Ard",
+  "robustness_status": "PENDING_04B",
+  "removed_parameters": [
+    "Coal_Retrofitted_Min_Power_660-1000",
+    "Coal_Retrofitted_Time_660-1000",
+    "Coal_Retrofitted_Time_300-660",
+    "CHP_NonRetrofitted_Min_Power_660-1000",
+    "CHP_NonRetrofitted_Time_660-1000",
+    "CHP_NonRetrofitted_Time_300-660",
+    "CHP_NonRetrofitted_Time_0-300"
+  ],
+  "original_parameters": [
+    "Coal_Retrofitted_Min_Power_660-1000",
+    "Coal_Retrofitted_Time_660-1000",
+    "Coal_Retrofitted_Min_Power_300-660",
+    "Coal_Retrofitted_Time_300-660",
+    "Coal_Retrofitted_Min_Power_0-300",
+    "Coal_Retrofitted_Time_0-300",
+    "CHP_NonRetrofitted_Min_Power_660-1000",
+    "CHP_NonRetrofitted_Time_660-1000",
+    "CHP_NonRetrofitted_Min_Power_300-660",
+    "CHP_NonRetrofitted_Time_300-660",
+    "CHP_NonRetrofitted_Min_Power_0-300",
+    "CHP_NonRetrofitted_Time_0-300",
+    "MLT_Band"
+  ],
+  "robustness_file": "active_selection_robustness/robustness_summary.json",
+  "model_type": "reduced",
+  "timestamp": "2026-09-11T14:22:12.935",
+  "screening_source": "fixed_kernel_5fold_ARD_baseline_bound"
+}

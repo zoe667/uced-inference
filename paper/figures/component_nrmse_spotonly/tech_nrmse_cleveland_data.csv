@@ -1,0 +1,25 @@
+year,technology,scenario,nrmse,run_id_or_role
+2016,Coal,Reference,0.197927501793,SpotOnly
+2016,Coal,Representative inferred,0.083973955325,medoid (S10%)
+2016,Coal,Best LHS run,0.0904511636895,run 61
+2016,Wind,Reference,0.14926953712,SpotOnly
+2016,Wind,Representative inferred,0.129689364574,medoid (S10%)
+2016,Wind,Best LHS run,0.127330847137,run 61
+2016,Solar,Reference,0.134538831583,SpotOnly
+2016,Solar,Representative inferred,0.121434759928,medoid (S10%)
+2016,Solar,Best LHS run,0.120662342453,run 61
+2016,MLT,Reference,0.964650513973,SpotOnly
+2016,MLT,Representative inferred,0.0757370707513,medoid (S10%)
+2016,MLT,Best LHS run,0.0704587588911,run 61
+2021,Coal,Reference,0.223149117211,SpotOnly
+2021,Coal,Representative inferred,0.123232997518,medoid (S10%)
+2021,Coal,Best LHS run,0.125216520904,run 6
+2021,Wind,Reference,0.0815803987194,SpotOnly
+2021,Wind,Representative inferred,0.0828249696426,medoid (S10%)
+2021,Wind,Best LHS run,0.0815263586735,run 6
+2021,Solar,Reference,0.0360402641567,SpotOnly
+2021,Solar,Representative inferred,0.0361885958327,medoid (S10%)
+2021,Solar,Best LHS run,0.0363679779865,run 6
+2021,MLT,Reference,0.82714708494,SpotOnly
+2021,MLT,Representative inferred,0.0727118584104,medoid (S10%)
+2021,MLT,Best LHS run,0.0721175354549,run 6

@@ -1,0 +1,22 @@
+{
+  "weights": {
+    "coal_gen": 0.25,
+    "mlt_flow": 0.25,
+    "wind_gen": 0.25,
+    "solar_gen": 0.25
+  },
+  "metric_type": "NRMSE",
+  "final_transform_params": {
+    "kurtosis_before": -1.0973016335263581,
+    "raw_std": 0.003064528366203586,
+    "metric_type": "NRMSE",
+    "skewness_before": -0.005503648332438863,
+    "lambda": null,
+    "aggregation_method": "L2",
+    "data_shift": 0.0,
+    "raw_mean": 0.016991757329545963,
+    "transformation_applied": false
+  },
+  "apply_transform": true,
+  "timestamp": "2026-09-11T14:30:57.763"
+}

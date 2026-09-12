@@ -1,0 +1,23 @@
+{
+  "scaling_params": [
+    {
+      "mean": 0.5195125000000002,
+      "std": 0.128578793628211
+    },
+    {
+      "mean": 0.5222749999999999,
+      "std": 0.1349552176075222
+    },
+    {
+      "mean": 0.22517500000000004,
+      "std": 0.10058471774100664
+    }
+  ],
+  "n_features": 3,
+  "feature_columns": [
+    "CHP_NonRetrofitted_Min_Power_300-660",
+    "CHP_NonRetrofitted_Min_Power_0-300",
+    "MLT_Band"
+  ],
+  "timestamp": "2026-09-11T14:30:57.862"
+}

@@ -1,0 +1,32 @@
+{
+  "role": "interior_4",
+  "draw": 1,
+  "metric_type": "NRMSE",
+  "params_fingerprint": "0d241cbf70876f3aa3d5f9867538fc3789f5ef392eb1a70c8e4f10603bf1d44b",
+  "work_dir": "work/2016/backcheck_interior_4_eps10",
+  "params": {
+    "CHP_NonRetrofitted_Time_300-660": 10.0,
+    "MLT_Band": 0.054,
+    "CHP_NonRetrofitted_Time_660-1000": 10.0,
+    "CHP_NonRetrofitted_Min_Power_0-300": 0.531,
+    "CHP_Retrofitted_Min_Power_300-660": 0.525,
+    "CHP_Retrofitted_Time_300-660": 10.0,
+    "CHP_NonRetrofitted_Time_0-300": 8.0,
+    "CHP_Retrofitted_Time_0-300": 8.0,
+    "CHP_Retrofitted_Min_Power_660-1000": 0.525,
+    "CHP_NonRetrofitted_Min_Power_300-660": 0.633,
+    "CHP_Retrofitted_Min_Power_0-300": 0.525,
+    "CHP_NonRetrofitted_Min_Power_660-1000": 0.525,
+    "CHP_Retrofitted_Time_660-1000": 10.0
+  },
+  "run_at": "2026-09-12T03:44:48.961",
+  "result": {
+    "performance_score": 0.011189042286825917,
+    "raw_wind_error": 0.1321353908313233,
+    "raw_coal_error": 0.08377461074808792,
+    "performance_score_transformed": -1.8935099791256278,
+    "aggregated_score": 0.011189042286825917,
+    "raw_mlt_error": 0.07154658167959013,
+    "raw_solar_error": 0.12312314518858425
+  }
+}

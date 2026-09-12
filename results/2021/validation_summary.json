@@ -1,0 +1,147 @@
+{
+  "fold_adj_r2": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "validation_passed": false,
+  "r2_std": 0.008866477954846153,
+  "robustness_status": "PENDING_04B",
+  "test_r2": 0.9933004803350491,
+  "gp_config": {
+    "log_signal_bounds": [
+      -3.0,
+      3.0
+    ],
+    "parameterization": "log-scale (corrected 2026)",
+    "init_log_lengthscale": 0.0,
+    "init_log_signal_std": 0.0,
+    "n_restarts": 3,
+    "single_noise_term": true,
+    "init_log_noise_std": -2.995732273553991,
+    "log_ls_bounds": [
+      -3.0,
+      4.0
+    ],
+    "log_noise_bounds": [
+      -6.907755278982137,
+      -0.6931471805599453
+    ]
+  },
+  "fold_r2": [
+    0.9750735310969011,
+    0.9790738825855355,
+    0.9804833595496172,
+    0.9924177340469197,
+    0.995332155576977
+  ],
+  "validation_mode": "internal_split",
+  "final_dimensions": 6,
+  "screening_source": "fixed_kernel_5fold_ARD_baseline_bound",
+  "avg_interval_width": 0.3674523341636233,
+  "cv_r2": 0.9853464122760576,
+  "dimension_reduction_info": {
+    "threshold_used": "fold_stable_ceiling_screening(source=fixed_kernel_5fold_ARD_baseline_bound, tol=0.1, min_frac=0.8, log_ls_ceiling=4.0)",
+    "removed_features": [
+      "Coal_Retrofitted_Min_Power_660-1000",
+      "Coal_Retrofitted_Time_660-1000",
+      "Coal_Retrofitted_Time_300-660",
+      "CHP_NonRetrofitted_Min_Power_660-1000",
+      "CHP_NonRetrofitted_Time_660-1000",
+      "CHP_NonRetrofitted_Time_300-660",
+      "CHP_NonRetrofitted_Time_0-300"
+    ],
+    "original_dimensions": 13
+  },
+  "fold_mae": [
+    0.10013478433404535,
+    0.07209513970726028,
+    0.11367293474288538,
+    0.07039576916923974,
+    0.055131471631573205
+  ],
+  "test_rmse": 0.07668554844777214,
+  "cv_rmse": 0.12043229521153122,
+  "final_fitted_signal_std": 1.8897423673773304,
+  "model_file": "trained_metamodel_final.jld2",
+  "test_adjusted_r2": 0.9902083943358411,
+  "metric_type": "NRMSE",
+  "cv_adjusted_r2": 0.9841420078055966,
+  "coverage_gap": 0.15000000000000002,
+  "transform_params_file": "master_transform_params.json",
+  "final_kernel_name": "Mat32Ard",
+  "feature_columns": [
+    "Coal_Retrofitted_Min_Power_300-660",
+    "Coal_Retrofitted_Min_Power_0-300",
+    "Coal_Retrofitted_Time_0-300",
+    "CHP_NonRetrofitted_Min_Power_300-660",
+    "CHP_NonRetrofitted_Min_Power_0-300",
+    "MLT_Band"
+  ],
+  "stability_cv": 0.009006290413246758,
+  "final_kernel_selection_method": "Fixed",
+  "test_mae": 0.06008415195484111,
+  "adjusted_r2_cv": null,
+  "r2_mean": 0.98447613257119,
+  "cv_coverage": 0.85,
+  "plotting_data_file": "plotting_data_reduced.json",
+  "scaling_params_file": "master_scaling_params.json",
+  "auto_transform": true,
+  "rmse_mean": 0.11663819238247308,
+  "model_type": "reduced",
+  "rmse_std": 0.033531138656229,
+  "fold_fitted_noise_stds": [
+    0.001000000000012337,
+    0.045385617513307705,
+    0.032139139687819014,
+    0.0466610734025371,
+    0.046515587323636816
+  ],
+  "n_folds": 5,
+  "rmse_gap": 0.04374674676375907,
+  "cv_mae": 0.08228601991700081,
+  "fold_assignments_file": "master_fold_assignments.json",
+  "final_mll": 45.36910023652278,
+  "model_specific_file": "trained_metamodel_reduced.jld2",
+  "cv_predictions_file": "cv_predictions.json",
+  "r2_gap": 0.00795406805899157,
+  "test_coverage": 1.0,
+  "dimension_reduction_trial": {
+    "decision_reason": "Baseline fixed-kernel 4/5 ARD screening identified weak-relevance dimensions; the production GP was refitted on the retained dimensions. Run 04b_active_parameter_robustness.jl for robustness evidence.",
+    "candidate_features": [
+      "Coal_Retrofitted_Min_Power_300-660",
+      "Coal_Retrofitted_Min_Power_0-300",
+      "Coal_Retrofitted_Time_0-300",
+      "CHP_NonRetrofitted_Min_Power_300-660",
+      "CHP_NonRetrofitted_Min_Power_0-300",
+      "MLT_Band"
+    ],
+    "attempted": true,
+    "robustness_status": "PENDING_04B",
+    "should_use_reduced": true,
+    "removed_features": [
+      "Coal_Retrofitted_Min_Power_660-1000",
+      "Coal_Retrofitted_Time_660-1000",
+      "Coal_Retrofitted_Time_300-660",
+      "CHP_NonRetrofitted_Min_Power_660-1000",
+      "CHP_NonRetrofitted_Time_660-1000",
+      "CHP_NonRetrofitted_Time_300-660",
+      "CHP_NonRetrofitted_Time_0-300"
+    ],
+    "screening_source": "fixed_kernel_5fold_ARD_baseline_bound"
+  },
+  "generalization_quality": false,
+  "final_fitted_noise_std": 0.0010000000000109596,
+  "fold_rmse": [
+    0.14172193675769237,
+    0.13894494207013508,
+    0.14140291553306306,
+    0.08933795600598639,
+    0.07178321154548856
+  ],
+  "test_nll": -1.1320455197362373,
+  "robustness_file": "active_selection_robustness.json",
+  "timestamp": "2026-09-11T14:22:15.532"
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "source": "dirname",
+    "year": 2016,
+    "refitted": false,
+    "max_change_from_archived_predictions": 0.0,
+    "n_pool": 20000,
+    "uced_evaluations": 0,
+    "current_L_min": 0.010433791733957167,
+    "model_features": [
+      "CHP_NonRetrofitted_Min_Power_300-660",
+      "CHP_NonRetrofitted_Min_Power_0-300",
+      "MLT_Band"
+    ]
+  },
+  {
+    "source": "dirname",
+    "year": 2021,
+    "refitted": false,
+    "max_change_from_archived_predictions": 0.0,
+    "n_pool": 20000,
+    "uced_evaluations": 0,
+    "current_L_min": 0.00710584661017041,
+    "model_features": [
+      "Coal_Retrofitted_Min_Power_300-660",
+      "Coal_Retrofitted_Min_Power_0-300",
+      "Coal_Retrofitted_Time_0-300",
+      "CHP_NonRetrofitted_Min_Power_300-660",
+      "CHP_NonRetrofitted_Min_Power_0-300",
+      "MLT_Band"
+    ]
+  }
+]

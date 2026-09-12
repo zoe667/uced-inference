@@ -1,0 +1,38 @@
+{
+  "scaling_params": [
+    {
+      "mean": 0.518675,
+      "std": 0.12836092064708438
+    },
+    {
+      "mean": 0.5214874999999999,
+      "std": 0.12931396331253223
+    },
+    {
+      "mean": 3.940375000000001,
+      "std": 1.1616688930536996
+    },
+    {
+      "mean": 0.5261500000000001,
+      "std": 0.1325897928369939
+    },
+    {
+      "mean": 0.5109,
+      "std": 0.1298711727789787
+    },
+    {
+      "mean": 0.2259,
+      "std": 0.10152353346934526
+    }
+  ],
+  "n_features": 6,
+  "feature_columns": [
+    "Coal_Retrofitted_Min_Power_300-660",
+    "Coal_Retrofitted_Min_Power_0-300",
+    "Coal_Retrofitted_Time_0-300",
+    "CHP_NonRetrofitted_Min_Power_300-660",
+    "CHP_NonRetrofitted_Min_Power_0-300",
+    "MLT_Band"
+  ],
+  "timestamp": "2026-09-11T14:22:14.890"
+}

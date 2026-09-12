@@ -1,0 +1,31 @@
+{
+  "kernel_type": "Mat52Ard",
+  "fitted_noise_std": 0.02628876336822635,
+  "n_restarts": 3,
+  "log_ls_bounds": [
+    -3.0,
+    4.0
+  ],
+  "parameterization": "log-scale (corrected 2026)",
+  "log_signal_bounds": [
+    -3.0,
+    3.0
+  ],
+  "init_log_signal_std": 0.0,
+  "init_log_noise_std": -2.995732273553991,
+  "n_features": 3,
+  "log_noise_bounds": [
+    -6.907755278982137,
+    -0.6931471805599453
+  ],
+  "feature_names": [
+    "CHP_NonRetrofitted_Min_Power_300-660",
+    "CHP_NonRetrofitted_Min_Power_0-300",
+    "MLT_Band"
+  ],
+  "metric_type": "NRMSE",
+  "init_log_lengthscale": 0.0,
+  "model_type": "reduced",
+  "timestamp": "2026-09-11T14:30:55.407",
+  "schema_version": 2
+}

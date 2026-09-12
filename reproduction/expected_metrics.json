@@ -1,0 +1,54 @@
+{
+  "design_size": 100,
+  "split": {
+    "train": 80,
+    "test": 20
+  },
+  "years": {
+    "2016": {
+      "test_r2": 0.9987336603592715,
+      "cv_r2": 0.9988073728512372,
+      "active_parameters": [
+        "CHP_NonRetrofitted_Min_Power_300-660",
+        "CHP_NonRetrofitted_Min_Power_0-300",
+        "MLT_Band"
+      ],
+      "search_points": 20000,
+      "loss_min": 0.010433791733957167,
+      "eps10_members": 260,
+      "robustness_status": "FAIL_REVIEW",
+      "backcheck_loss": {
+        "interior_1": 0.01075354299774111,
+        "interior_2": 0.010922435246112302,
+        "interior_3": 0.01115053098902814,
+        "interior_4": 0.011189042286825917,
+        "medoid": 0.01108836531537171,
+        "surrogate_best": 0.01008745879333652
+      }
+    },
+    "2021": {
+      "test_r2": 0.9933004803350491,
+      "cv_r2": 0.9853464122760576,
+      "active_parameters": [
+        "Coal_Retrofitted_Min_Power_300-660",
+        "Coal_Retrofitted_Min_Power_0-300",
+        "Coal_Retrofitted_Time_0-300",
+        "CHP_NonRetrofitted_Min_Power_300-660",
+        "CHP_NonRetrofitted_Min_Power_0-300",
+        "MLT_Band"
+      ],
+      "search_points": 20000,
+      "loss_min": 0.00710584661017041,
+      "eps10_members": 3420,
+      "robustness_status": "PASS",
+      "backcheck_loss": {
+        "interior_1": 0.007371104839615279,
+        "interior_2": 0.007167753677423993,
+        "interior_3": 0.007308632860905213,
+        "interior_4": 0.007624333530400652,
+        "medoid": 0.007160744023868366,
+        "surrogate_best": 0.007065172553512866
+      }
+    }
+  }
+}

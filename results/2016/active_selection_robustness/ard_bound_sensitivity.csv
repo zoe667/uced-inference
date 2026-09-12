@@ -1,0 +1,14 @@
+Parameter,votes_0p5x,candidate_0p5x,votes_1p0x,candidate_1p0x,votes_2p0x,candidate_2p0x
+Coal_Retrofitted_Min_Power_660-1000,5,true,5,true,5,true
+Coal_Retrofitted_Time_660-1000,5,true,5,true,5,true
+Coal_Retrofitted_Min_Power_300-660,5,true,5,true,5,true
+Coal_Retrofitted_Time_300-660,5,true,5,true,5,true
+Coal_Retrofitted_Min_Power_0-300,5,true,5,true,5,true
+Coal_Retrofitted_Time_0-300,5,true,5,true,5,true
+CHP_NonRetrofitted_Min_Power_660-1000,5,true,5,true,5,true
+CHP_NonRetrofitted_Time_660-1000,5,true,5,true,3,false
+CHP_NonRetrofitted_Min_Power_300-660,0,false,0,false,0,false
+CHP_NonRetrofitted_Time_300-660,5,true,4,true,5,true
+CHP_NonRetrofitted_Min_Power_0-300,0,false,0,false,0,false
+CHP_NonRetrofitted_Time_0-300,5,true,5,true,5,true
+MLT_Band,0,false,0,false,0,false

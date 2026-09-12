@@ -1,0 +1,113 @@
+{
+  "n_design_points": 100,
+  "note": "Bounds were reconstructed from the realized LHS design, exploiting the stratification property, then rounded to the simplest value inside the feasible interval. This recovers the ex-ante design specification; it is NOT the realized min/max used as a domain.",
+  "design_id": "runs_2016_new",
+  "parameters": [
+    {
+      "name": "CHP_Retrofitted_Min_Power_660-1000",
+      "realized_max": 0.746,
+      "realized_min": 0.302,
+      "lower": 0.30000000000000004,
+      "upper": 0.75,
+      "type": "continuous"
+    },
+    {
+      "name": "CHP_Retrofitted_Time_660-1000",
+      "realized_max": 15.997,
+      "realized_min": 4.11,
+      "lower": 4.0,
+      "upper": 16.0,
+      "type": "integer"
+    },
+    {
+      "name": "CHP_Retrofitted_Min_Power_300-660",
+      "realized_max": 0.746,
+      "realized_min": 0.303,
+      "lower": 0.30000000000000004,
+      "upper": 0.75,
+      "type": "continuous"
+    },
+    {
+      "name": "CHP_Retrofitted_Time_300-660",
+      "realized_max": 15.909,
+      "realized_min": 4.059,
+      "lower": 4.0,
+      "upper": 16.0,
+      "type": "integer"
+    },
+    {
+      "name": "CHP_Retrofitted_Min_Power_0-300",
+      "realized_max": 0.747,
+      "realized_min": 0.302,
+      "lower": 0.30000000000000004,
+      "upper": 0.75,
+      "type": "continuous"
+    },
+    {
+      "name": "CHP_Retrofitted_Time_0-300",
+      "realized_max": 11.998,
+      "realized_min": 4.035,
+      "lower": 4.0,
+      "upper": 12.0,
+      "type": "integer"
+    },
+    {
+      "name": "CHP_NonRetrofitted_Min_Power_660-1000",
+      "realized_max": 0.748,
+      "realized_min": 0.303,
+      "lower": 0.30000000000000004,
+      "upper": 0.75,
+      "type": "continuous"
+    },
+    {
+      "name": "CHP_NonRetrofitted_Time_660-1000",
+      "realized_max": 15.913,
+      "realized_min": 4.119,
+      "lower": 4.0,
+      "upper": 16.0,
+      "type": "integer"
+    },
+    {
+      "name": "CHP_NonRetrofitted_Min_Power_300-660",
+      "realized_max": 0.75,
+      "realized_min": 0.303,
+      "lower": 0.30000000000000004,
+      "upper": 0.75,
+      "type": "continuous"
+    },
+    {
+      "name": "CHP_NonRetrofitted_Time_300-660",
+      "realized_max": 15.909,
+      "realized_min": 4.04,
+      "lower": 4.0,
+      "upper": 16.0,
+      "type": "integer"
+    },
+    {
+      "name": "CHP_NonRetrofitted_Min_Power_0-300",
+      "realized_max": 0.746,
+      "realized_min": 0.303,
+      "lower": 0.30000000000000004,
+      "upper": 0.75,
+      "type": "continuous"
+    },
+    {
+      "name": "CHP_NonRetrofitted_Time_0-300",
+      "realized_max": 11.951,
+      "realized_min": 4.03,
+      "lower": 4.0,
+      "upper": 12.0,
+      "type": "integer"
+    },
+    {
+      "name": "MLT_Band",
+      "realized_max": 0.397,
+      "realized_min": 0.05,
+      "lower": 0.05,
+      "upper": 0.4,
+      "type": "continuous"
+    }
+  ],
+  "recovered_from": "parameters.csv (LHS stratification inversion)",
+  "recovered_at": "2026-09-10T23:17:16.686"
+}
