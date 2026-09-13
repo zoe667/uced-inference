@@ -1,8 +1,17 @@
-# UCED Inference
+
+
+
+# Online Companion
+## Inferring Institutionally Shaped Operational Constraints in Power System Dispatch Models
 
 [![CI](https://github.com/zoe667/uced-inference/actions/workflows/ci.yml/badge.svg)](https://github.com/zoe667/uced-inference/actions/workflows/ci.yml)
 
-This repository contains the code and data package for surrogate-assisted inverse inference of policy-shaped operating parameters in a unit commitment and economic dispatch (UCED) model. It includes the model code, the final 100-point experimental designs for 2016 and 2021, frozen surrogate and revalidation outputs, scripts used to produce the reported figures and supplementary material, and lightweight verification checks.
+This repository provides the online companion for:
+
+Ziying Song, Yuanyuan Shi, and Michael R. Davidson,
+"Inferring Institutionally Shaped Operational Constraints in Power System Dispatch Models."
+
+The repository contains extended methodological documentation, additional diagnostic results, processed data underlying the online-companion figures, and code used to reproduce those figures. 
 
 ## Quick start
 
