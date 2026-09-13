@@ -1,18 +1,18 @@
 # Surrogate performance figure group
 
-This folder contains every asset used for the Results subsection `Surrogate Performance and Relevant Dimensions`.
+This folder contains the surrogate-performance plotting data, figures, and scripts.
 
 ## Rebuild
 
 From the repository root:
 
 ```bash
-julia --project=. paper_assets/noEI/surrogate_performance/build_surrogate_results_package.jl
-Rscript paper_assets/noEI/surrogate_performance/plot_surrogate_performance.R
+julia --project=. paper/figures/surrogate_performance/build_surrogate_results_package.jl
+Rscript paper/figures/surrogate_performance/plot_surrogate_performance.R
 ```
 
-The Julia step reads `experiment/runs_2016_100` and
-`experiment/runs_2021_100` and regenerates the three CSV files. The R step
+The Julia step reads the frozen records in `results/2016` and
+`results/2021` and regenerates the three CSV files. The R step
 reads only those local CSV files and regenerates all PDF and PNG figures in
 this folder.
 
@@ -23,8 +23,6 @@ this folder.
 - `ard_fold_screening.csv`: fold-level ARD length scales and retain/exclude decisions.
 - `fig_gp_holdout_validation.*`: two-panel wide held-out parity plot.
 - `fig_gp_holdout_validation_stacked.*`: one-column stacked alternative.
-- `fig_surrogate_performance_active_parameters_ieee.*`: compact IEEE
-  two-column figure with four horizontal panels: two held-out parity plots and
-  two year-specific ARD decision summaries.
+- `fig_surrogate_performance_active_parameters_ieee.*`: compact two-column figure with four horizontal panels: two held-out parity plots and two year-specific ARD decision summaries.
 - `supp_ard_fold_stability.*`: supplementary fold-stability figure.
-- `surrogate_performance_subsection.tex`: three-paragraph manuscript draft and main-figure caption.
+- `surrogate_performance_subsection.tex`: reusable result text and figure caption.

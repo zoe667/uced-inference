@@ -14,7 +14,7 @@
 
 ### Level 1: archived-result verification
 
-`python3 reproduction/verify_results.py` completes quickly and requires no solver. This is the default reviewer and CI check.
+`python3 reproduction/verify_results.py` completes quickly and requires no solver. This is the default lightweight consistency check.
 
 ### Level 2: surrogate and reporting reproduction
 
@@ -39,7 +39,7 @@ The main environment variables are:
 
 ## Frozen artifacts
 
-The files under `results/2016` and `results/2021` are the records used for the paper. Reproduction scripts copy them to a working directory before running any write-producing stage. JLD2 files are supplied for exact reporting extraction; the CSV and JSON artifacts remain the portable record if binary deserialization changes across Julia versions.
+The files under `results/2016` and `results/2021` are the frozen analysis records. Reproduction scripts copy them to a working directory before running any write-producing stage. JLD2 files are supplied for exact reporting extraction; the CSV and JSON artifacts remain the portable record if binary deserialization changes across Julia versions.
 
 ## Numerical tolerance
 

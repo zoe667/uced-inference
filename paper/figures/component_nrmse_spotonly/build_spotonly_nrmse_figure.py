@@ -28,7 +28,7 @@ os.environ.setdefault(
     "MPLCONFIGDIR", str(Path(tempfile.gettempdir()) / "uced-inference-matplotlib-cache")
 )
 os.environ.setdefault(
-    "XDG_CACHE_HOME", str(Path(tempfile.gettempdir()) / "uced-inferencex-xdg-cache")
+    "XDG_CACHE_HOME", str(Path(tempfile.gettempdir()) / "uced-inference-xdg-cache")
 )
 import matplotlib
 matplotlib.use("Agg")

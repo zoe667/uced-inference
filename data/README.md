@@ -1,6 +1,6 @@
 # Data documentation
 
-This directory contains the model inputs and observed monthly targets used by the released 2016 and 2021 experiments. The data are separate from the MIT-licensed source code.
+This directory contains the model inputs and observed monthly targets used by the 2016 and 2021 experiments. The data are separate from the MIT-licensed source code.
 
 ## Directory roles
 
@@ -24,7 +24,7 @@ This directory contains the model inputs and observed monthly targets used by th
 
 ## Provenance and redistribution
 
-**SOURCE TO CONFIRM BEFORE PUBLICATION.** Add the formal source, access date, transformation description, and redistribution permission for each of the following groups:
+**SOURCE TO DOCUMENT.** Add the formal source, access date, transformation description, and redistribution terms for each of the following groups:
 
 1. Generator identities, capacities, technologies, retrofit classifications, and operating assumptions.
 2. Hourly demand and renewable-availability profiles.
@@ -32,8 +32,8 @@ This directory contains the model inputs and observed monthly targets used by th
 4. Network and MLT contract series.
 5. Monthly observed generation and exchange targets.
 
-If any input cannot be redistributed, remove it from the public repository and provide a documented acquisition/transformation procedure or a redistributable synthetic fixture. The archived aggregate results can still support the solver-free verification and surrogate/reporting checks.
+If an input cannot be redistributed, provide a documented acquisition/transformation procedure or a redistributable synthetic fixture. The archived aggregate results can still support the solver-free verification and surrogate/reporting checks.
 
 ## Excluded files
 
-Known backup and superseded inputs (`*_wrong*`, `Generators_data_forMLT.csv`, notes, and `.DS_Store`) were intentionally excluded from this release candidate.
+Known backup and superseded inputs (`*_wrong*`, `Generators_data_forMLT.csv`, notes, and `.DS_Store`) are intentionally excluded.

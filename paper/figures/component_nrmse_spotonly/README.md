@@ -10,7 +10,7 @@ run from the corresponding no-EI experiment.
 From the repository root:
 
 ```bash
-python paper_assets/noEI/component_nrmse_spotonly/build_spotonly_nrmse_figure.py
+python3 paper/figures/component_nrmse_spotonly/build_spotonly_nrmse_figure.py
 ```
 
 No new UCED simulations are launched. The script reads the completed weekly
@@ -57,8 +57,7 @@ The aggregate loss reported in the metadata is
 - `Best LHS run` remains in the exported comparison data for auditability, but
   is intentionally omitted from the final figure.
 
-Inference inputs come from `experiment/runs_2016_100` and
-`experiment/runs_2021_100`, using each archived medoid UCED result.
+Inference inputs are represented by the archived medoid UCED results in `results/2016` and `results/2021`.
 
 The final figure reports the percentage change from `Reference` to
 `Representative inferred`, with the reference fixed at zero. Negative values
@@ -76,7 +75,6 @@ At the folder root:
 - `tech_nrmse_cleveland_data.csv`
 - `tech_nrmse_relative_change.csv`
 - `tech_nrmse_cleveland_meta.csv`
-- `analysis_manifest.json`
 
 Under `2016/` and `2021/`:
 
@@ -85,9 +83,9 @@ Under `2016/` and `2021/`:
 - month-hour audit;
 - NRMSE summary and regional/path diagnostics.
 
-## Release-repository reproduction
+## Replot from frozen data
 
-The public release excludes the large weekly SpotOnly and inferred-run outputs. Recreate the final panel directly from the frozen plotting table with:
+The repository excludes the large weekly SpotOnly and inferred-run outputs. Recreate the final panel directly from the frozen plotting table with:
 
 ```bash
 python3 replot_from_frozen_data.py

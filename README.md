@@ -2,9 +2,9 @@
 
 [![CI](https://github.com/zoe667/uced-inference/actions/workflows/ci.yml/badge.svg)](https://github.com/zoe667/uced-inference/actions/workflows/ci.yml)
 
-This repository accompanies the paper on surrogate-assisted inverse inference of policy-shaped operating parameters in a unit commitment and economic dispatch (UCED) model. It contains the released model code, the two final 100-point experimental designs (2016 and 2021), frozen surrogate and revalidation outputs, scripts used to produce the reported figures and supplementary material, and lightweight verification checks.
+This repository contains the code and data package for surrogate-assisted inverse inference of policy-shaped operating parameters in a unit commitment and economic dispatch (UCED) model. It includes the model code, the final 100-point experimental designs for 2016 and 2021, frozen surrogate and revalidation outputs, scripts used to produce the reported figures and supplementary material, and lightweight verification checks.
 
-## Reviewer quick start
+## Quick start
 
 The primary verification uses only Python's standard library. It does not refit a Gaussian process or solve the UCED model.
 
@@ -87,7 +87,7 @@ The full UCED model uses Gurobi and contains nonconvex quadratic terms. A workin
 bash reproduction/smoke_uced.sh 2021
 ```
 
-The complete paper experiment uses 100 parameter designs and 52 modeled weeks for each year. It is intended for a multicore workstation or computing cluster and is not part of the automated CI job.
+The complete experiment uses 100 parameter designs and 52 modeled weeks for each year. It is intended for a multicore workstation or computing cluster and is not part of the automated CI job.
 
 ## Workflow and paper mapping
 
@@ -97,15 +97,15 @@ The complete paper experiment uses 100 parameter designs and 52 modeled weeks fo
 | ARD screening robustness | `04b_active_parameter_robustness.jl` | `results/<year>/active_selection_robustness/` |
 | Low-mismatch parameter region | `05_surrogate_search.jl` | dense search and search summary files |
 | Original-UCED revalidation | `05b_run_revalidation_candidate.jl` | `results/<year>/back_check_archive/` |
-| Main-paper figures | plotting scripts | `paper/figures/` |
+| Main figures | plotting scripts | `paper/figures/` |
 | Supplementary Sections S1--S5 | reporting scripts | `paper/supplementary/` |
 
 See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the complete workflow, resource expectations, and artifact definitions.
 
 ## Data and licensing
 
-Code is released under the MIT License. Input-data provenance and redistribution terms are documented in [data/README.md](data/README.md). The data are not covered by the software license. Confirm the remaining source and redistribution entries in `data/README.md` before making the repository public.
+Code is released under the MIT License. Input-data provenance and redistribution terms are documented in [data/README.md](data/README.md). The data are not covered by the software license.
 
 ## Citation
 
-Citation metadata are provided in `CITATION.cff`. After the paper and Zenodo record are available, replace the provisional repository metadata with the article citation and archived release DOI.
+Citation metadata are provided in `CITATION.cff` and can be updated with the article citation and archived release DOI when those records are available.

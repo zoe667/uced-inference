@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the accompanying paper and archived software release."
+message: "If you use this software, please cite this repository and the associated article when available."
 title: "UCED Inference: Surrogate-Assisted Inference of Policy-Shaped Operational Parameters"
 type: software
 authors:

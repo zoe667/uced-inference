@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fast, solver-free consistency checks for the frozen paper artifacts."""
+"""Fast, solver-free consistency checks for the frozen analysis artifacts."""
 from __future__ import annotations
 
 import csv

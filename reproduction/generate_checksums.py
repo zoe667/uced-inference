@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerate SHA-256 checksums for immutable release artifacts."""
+"""Regenerate SHA-256 checksums for immutable data and analysis artifacts."""
 import hashlib
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
