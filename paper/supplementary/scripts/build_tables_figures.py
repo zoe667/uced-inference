@@ -184,9 +184,10 @@ fig.tight_layout();figout('pairwise_geometry')
 fig,axs=plt.subplots(2,2,figsize=(7,4.0))
 for col,(y,r) in enumerate(YEARS.items()):
     names,a=sets[y];b=a[:,names.index('MLT_Band')]
+    mlt_domain=domains[y]['MLT_Band']
     for row,n in enumerate(['CHP_NonRetrofitted_Min_Power_300-660','CHP_NonRetrofitted_Min_Power_0-300']):
         ax=axs[row,col];ax.scatter(b,a[:,names.index(n)],s=4,alpha=.24,color=COLORS[y],rasterized=True)
-        ax.set_xlim(.05,.16);ax.set_ylim(.3,.75);ax.set_ylabel(label(n));ax.set_xlabel('MLT band');ax.grid(alpha=.12)
+        ax.set_xlim(mlt_domain['lower'],mlt_domain['upper']);ax.set_ylim(.3,.75);ax.set_ylabel(label(n));ax.set_xlabel('MLT band');ax.grid(alpha=.12)
         if row==0:ax.set_title(str(y))
 fig.tight_layout();figout('joint_region')
 
