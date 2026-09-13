@@ -25,10 +25,10 @@ from pathlib import Path
 import tempfile
 
 os.environ.setdefault(
-    "MPLCONFIGDIR", str(Path(tempfile.gettempdir()) / "codex-matplotlib-cache")
+    "MPLCONFIGDIR", str(Path(tempfile.gettempdir()) / "uced-inference-matplotlib-cache")
 )
 os.environ.setdefault(
-    "XDG_CACHE_HOME", str(Path(tempfile.gettempdir()) / "codex-xdg-cache")
+    "XDG_CACHE_HOME", str(Path(tempfile.gettempdir()) / "uced-inferencex-xdg-cache")
 )
 import matplotlib
 matplotlib.use("Agg")
