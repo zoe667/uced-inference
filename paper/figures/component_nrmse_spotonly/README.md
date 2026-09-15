@@ -13,23 +13,7 @@ From the repository root:
 python3 paper/figures/component_nrmse_spotonly/build_spotonly_nrmse_figure.py
 ```
 
-No new UCED simulations are launched. The script reads the completed weekly
-files under `model/Batch/Results_ne_2016_SpotOnly/` and
-`model/Batch/Results_ne_2021_SpotOnly/`.
-
-## Hour and month treatment
-
-Each result contains 52 weeks x 168 hours = 8,736 modeled hours. The absent
-calendar hours are not imputed. Hours are assigned sequentially using the
-correct calendar for each year, leaving:
-
-- 2016: 696 modeled hours in December versus 744 calendar hours;
-- 2021: 720 modeled hours in December versus 744 calendar hours.
-
-For generation and MLT, the simulated quantity is converted to monthly-average
-GW using the number of modeled hours represented in that month. Historical
-monthly energy is converted to monthly-average GW using calendar-month hours.
-The exact denominators are exported in each year's `month_hour_audit.csv`.
+No new UCED simulations are launched. The script reads the completed results folder.
 
 ## NRMSE definitions
 
@@ -42,7 +26,7 @@ Coal, wind, and solar follow `03_aggregate_and_analyze.jl`:
 MLT also follows `03`:
 
 1. compute a 12-month RMSE for each matched transmission path;
-2. average the path RMSE values (excluding `IME_to_SD` in 2016);
+2. average the path RMSE values;
 3. divide by the mean absolute historical monthly-average flow across the full
    historical MLT table.
 
