@@ -8,7 +8,6 @@
 4. `experiment/04_build_surrogate.jl` fits full and ARD-screened Gaussian-process surrogates using a frozen 80/20 development/test split.
 5. `experiment/04b_active_parameter_robustness.jl` evaluates bound sensitivity and cross-fitted screening stability without changing the production models.
 6. `experiment/05_surrogate_search.jl` searches 20,000 points and characterizes low-mismatch regions.
-7. `experiment/05b_run_revalidation_candidate.jl` evaluates selected candidates in the original UCED model.
 
 ## Reproduction levels
 
