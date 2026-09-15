@@ -60,13 +60,6 @@ At the folder root:
 - `tech_nrmse_relative_change.csv`
 - `tech_nrmse_cleveland_meta.csv`
 
-Under `2016/` and `2021/`:
-
-- concatenated 8,736-hour dispatch and flow tables;
-- monthly-average coal, wind, solar, and MLT tables;
-- month-hour audit;
-- NRMSE summary and regional/path diagnostics.
-
 ## Replot from frozen data
 
 The repository excludes the large weekly SpotOnly and inferred-run outputs. Recreate the final panel directly from the frozen plotting table with:
