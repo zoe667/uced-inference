@@ -22,7 +22,5 @@ this folder.
 - `surrogate_holdout_predictions.csv`: original-UCED held-out losses and final reduced-GP predictions.
 - `ard_fold_screening.csv`: fold-level ARD length scales and retain/exclude decisions.
 - `fig_gp_holdout_validation.*`: two-panel wide held-out parity plot.
-- `fig_gp_holdout_validation_stacked.*`: one-column stacked alternative.
 - `fig_surrogate_performance_active_parameters_ieee.*`: compact two-column figure with four horizontal panels: two held-out parity plots and two year-specific ARD decision summaries.
 - `supp_ard_fold_stability.*`: supplementary fold-stability figure.
-- `surrogate_performance_subsection.tex`: reusable result text and figure caption.
